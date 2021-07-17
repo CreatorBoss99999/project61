@@ -1,0 +1,138 @@
+body {
+    text-align: center;
+}
+
+#hobby {
+    border-radius: 50%;
+    padding: 20px;
+    width: 20%;
+    padding: 100px;
+
+}
+
+.bio {
+    padding: 5%;
+    font-size: 18;
+    text-align: center;
+    margin: 20%;
+}
+
+.languages {
+    padding: 5%;
+    font-size: 18;
+    text-align: center;
+    margin: 20%;
+}
+
+.developments {
+    padding: 5%;
+    font-size: 18;
+    text-align: center;
+    margin: 20%;
+}
+
+h1 {
+    text-shadow: 2px 2px 8px black;
+    font-family: sans-serif;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 50px;
+    margin: 18px auto;
+}
+
+.Head {
+    background: linear-gradient(#22c1c3 0%, #fdbb2d 100%);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-bottom: 20px;
+    padding: 16px;
+  margin-top: 30px;
+  height: 1500px; 
+}
+
+.Menu {
+    list-style:none;
+    display: inline;
+    float: left;
+    top: 10px;
+    right: 30px;
+    z-index: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    color: black;
+    position: fixed;
+    background-color:#fdbb2d;
+    width: 95%;
+    
+
+}
+
+.links {
+    float: left;
+    color: white;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 20px;
+
+}
+
+.links:hover {
+    background-color: blue;
+}
+a{
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+#color{
+    background-color: green;
+    text-decoration-color: aliceblue;
+    color: aliceblue;
+    font-family: 'Michroma', sans-serif;
+}
+#bg{
+    height: 250px;
+    width: 250px;
+    transition: transform.2s;
+}
+#bg:hover{
+    transform: scale3d(2,2,2);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#fdbb2d;
+    background-position-y: 0%;
+    z-index:auto;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight:bold;
+    font-size:20px;
+  }
+  
+  li a:hover {
+    background-color: blue;
+  }
+#fixed{
+    position: fixed;
+    background-size: 100%;
+}
